@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest'
-import type { IPerson } from './enities/interfaces/IPerson'
+import { IPerson } from '@fewo-monorepo/entities'
 import { property } from './index'
 
 describe('Verwalter', () => {

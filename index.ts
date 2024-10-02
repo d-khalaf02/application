@@ -1,16 +1,7 @@
 import 'reflect-metadata'
-import { PERSON_TYPES } from '@fewo-monorepo/entities/enums/Person.enum.ts';
-import { IBooking } from './entities/interfaces/IBooking'
-import { IPerson } from './entities/interfaces/IPerson'
-import { IProperty } from './entities/interfaces/IProperty'
-import { Person } from './entities/persons/Person'
-import { container } from './inversify/container'
-import { TYPES } from './inversify/types'
-import { emptyBooking } from './utils/faker/BookingFaker'
-import { mockBooking } from './utils/faker/mockBooking'
-import { mockPerson } from './utils/faker/mockPerson'
-import { mockProperty } from './utils/faker/mockProperty'
-import { unknownProperty } from './utils/faker/PropertyFaker'
+import { IBooking, IPerson, IProperty, Person, PERSON_TYPES } from '@fewo-monorepo/entities'
+import { container, TYPES } from '@fewo-monorepo/inversify'
+import { emptyBooking, mockBooking, mockPerson, mockProperty, unknownProperty } from '@fewo-monorepo/utils'
 
 let property : IProperty
 let booking: IBooking

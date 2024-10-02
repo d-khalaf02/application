@@ -1,5 +1,5 @@
 import 'reflect-metadata'
-import { PERSON_TYPES } from './entities/enums/Person.enum';
+import { PERSON_TYPES } from '@fewo-monorepo/entities/enums/Person.enum.ts';
 import { IBooking } from './entities/interfaces/IBooking'
 import { IPerson } from './entities/interfaces/IPerson'
 import { IProperty } from './entities/interfaces/IProperty'

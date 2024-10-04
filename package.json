@@ -12,9 +12,7 @@
   "description": "",
   "dependencies": {
     "@fewo-monorepo/entities": "workspace:*",
-    "@fewo-monorepo/inversify": "workspace:*",
     "@fewo-monorepo/utils": "workspace:*",
-    "@fewo-monorepo/wrapper": "workspace:*",
     "reflect-metadata": "~0.2.2",
     "vitest": "~2.1.1"
   }

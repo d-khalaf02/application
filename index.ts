@@ -1,7 +1,6 @@
 import 'reflect-metadata'
-import { IBooking, IPerson, IProperty, Person, PERSON_TYPES } from '@fewo-monorepo/entities'
-import { container, TYPES } from '@fewo-monorepo/inversify'
-import { emptyBooking, mockBooking, mockPerson, mockProperty, unknownProperty } from '@fewo-monorepo/utils'
+import { IBooking, IPerson, IProperty, Person, PERSON_TYPES, TYPES } from '@fewo-monorepo/entities'
+import { emptyBooking, mockBooking, mockPerson, mockProperty, unknownProperty, container } from '@fewo-monorepo/utils'
 
 let property : IProperty
 let booking: IBooking

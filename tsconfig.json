@@ -4,9 +4,14 @@
     "lib": ["es2020", "DOM"],
     "outDir": "./dist",
     "types": ["vitest/globals"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "paths": {
       "@fewo-monorepo/entities": [
         "../entities"
+      ],
+      "@fewo-monorepo/utils": [
+        "../utils"
       ]
     }
   },
